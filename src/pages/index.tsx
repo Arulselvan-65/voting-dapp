@@ -4,7 +4,8 @@ import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className="bg-black h-11 w-4">
+      <h1>gu</h1>
         <ConnectButton />
     </div>
   );
