@@ -1,4 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Button from '../Button';
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
 
       <div className='flex justify-between px-6 py-2 shadow-lg'>
         <div>
-          <h1 className='text-[33px] sm:text-[37px] font-bold text-gray-800 tracking-wider'>VotAms</h1>
+          <h1 className='text-[33px] sm:text-[37px] font-bold bg-gradient-to-tr from-gray-700 to-orange-600 text-transparent bg-clip-text tracking-wider '>VotAms</h1>
         </div>
 
         <ConnectButton.Custom>
@@ -35,9 +36,7 @@ const Navbar = () => {
                 {(() => {
                   if (!connected) {
                     return (
-                      <button onClick={openConnectModal} type="button" className='h-12 bg-gray-800 text-gray-300 rounded-lg w-36'>
-                        Connect Wallet
-                      </button>
+                      <Button onclick={openConnectModal} text={"Connect Wallet"}/>
                     );
                   }
 
