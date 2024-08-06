@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
 
-      <div className='flex justify-between px-6 py-2 shadow-lg'>
+      <div className='flex justify-between px-6 py-2 shadow-lg '>
         <div>
           <h1 className='text-[33px] sm:text-[37px] font-bold bg-gradient-to-tr from-gray-700 to-orange-600 text-transparent bg-clip-text tracking-wider '>VotAms</h1>
         </div>
