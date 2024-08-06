@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           <Button onclick={()=>{router.push('/dashboard')}} text={"Get Started"}/>
         </div>
       
-          <Image src={votingPic} alt="voting pic" className="w-[90%] max-w-[60vh] object-cover"/>
+          <Image src={votingPic} alt="voting pic" className="w-[80%] max-w-[60vh] object-cover"/>
       </div>
     </div>
   );
